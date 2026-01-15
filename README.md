@@ -67,5 +67,21 @@ This project demonstrates my ability to **design, build, and deploy a modern ful
 
 ---
 
-## 📂 Project Structure (High-Level)
+
+---
+
+## 🧪 Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/Gaurav-creater317/DSA-Galaxy-AI-Powered-DSA-Learning-Platform.git
+
+# Navigate to the project directory
+cd DSA-Galaxy-AI-Powered-DSA-Learning-Platform
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
 
