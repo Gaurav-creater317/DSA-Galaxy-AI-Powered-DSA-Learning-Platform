@@ -76,7 +76,7 @@ export default function Landing() {
       <StarsBackground />
       
       {/* Navigation */}
-      <nav className="relative z-20 flex items-center justify-between px-6 py-4 md:px-12 lg:px-20">
+      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 md:px-12 lg:px-20 bg-background/80 backdrop-blur-lg border-b border-border/30">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center glow-primary">
             <Bot className="w-5 h-5 text-primary-foreground" />
@@ -135,7 +135,7 @@ export default function Landing() {
       )}
 
       {/* Hero Section */}
-      <section id="home" className="relative z-10 px-6 pt-12 pb-16 md:pt-20 md:pb-24 md:px-12 lg:px-20">
+      <section id="home" className="relative z-10 px-6 pt-24 pb-16 md:pt-32 md:pb-24 md:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="text-center lg:text-left">
